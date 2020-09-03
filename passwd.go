@@ -72,3 +72,5 @@ func recursionSha1(b []byte, n, max int) string {
 	h.Write(b)
 	return recursionSha1(h.Sum(nil), n+1, max)
 }
+
+
